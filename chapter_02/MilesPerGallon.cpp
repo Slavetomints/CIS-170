@@ -6,23 +6,23 @@ using namespace std;
 
 int main()
 {
-  // Initializing variables
+  // Declare variables
   float milesDriven;
   float gasUsed;
   float gasMileage;
 
-  // Getting the amount of miles driven
+  // Prompt user for miles driven
   cout << "How many miles have you driven?" << endl;
   cin >> milesDriven;
 
-  // Getting the amount of gas used
+  // Prompt user for gallons of gas used
   cout << "How many gallons of gas did you use?" << endl;
   cin >> gasUsed;
 
-  // Preforming gas milage calculation
+  // Calculate miles-per-gallon
   gasMileage = milesDriven / gasUsed;
 
-  // Displaying gas mileage
+  // Display results
   cout << "You drove " << gasMileage << " miles per gallon of gas." << endl;
   return 0;
 }

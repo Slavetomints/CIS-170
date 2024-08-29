@@ -2,12 +2,12 @@
 # Class: CIS-170
 # Assignment: Miles-Per-Gallon Python Program
 
-# Gathering input for variables
+# Declare variables and prompt user for values
 miles_driven = int(input("How many miles have you driven?\n"))
 gas_used = int(input("How many gallons of gas did you use?\n"))
 
-#Performing gas mileage calculation
+# Calculate miles-per-gallon
 miles_per_gallon = miles_driven / gas_used
 
-#Displaying gas mileage 
+# Display results
 print(f"You drove {miles_per_gallon} miles per gallon of gas.")
