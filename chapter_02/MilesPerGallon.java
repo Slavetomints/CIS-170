@@ -1,7 +1,9 @@
-import java.util.Scanner;
 // Author: Daisy Hardwick
 // Class: CIS-170
 // Program: Miles-Per-Gallon Java Program
+
+
+import java.util.Scanner;
 
 public class MilesPerGallon
 {

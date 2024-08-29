@@ -1,7 +1,10 @@
-#include <iostream>
 // Author: Daisy Hardwick
 // Class: CIS-170
 // Assignment: Miles-Per-Gallon C++ Program
+
+
+#include <iostream>
+
 using namespace std;
 
 int main()
