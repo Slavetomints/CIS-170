@@ -1,0 +1,22 @@
+// Author: Daisy Hardwick
+// Class: CIS-170
+// Program Miles-Per-Gallon Pseudocode
+
+// Declare variables
+Declare Integer milesDriven
+Declare Integer gasUsed
+Declare Real milesPerGallon
+
+// Prompt user for miles driven
+Display "How many miles have you driven?"
+Input milesDriven
+
+// Prompt user for gallons of gas used
+Display "How many gallons of gas did you use?"
+Input gasUsed
+
+// Calculate miles-per-gallon
+Set milesPerGallon = milesDriven / gasUsed
+
+// Display results
+Display "You drove ", milesPerGallon, " miles per gallon of gas."
