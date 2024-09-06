@@ -12,12 +12,10 @@ Input year
 
 // Test to see if year is a leap year and display results
 If year MOD 100 == 0 AND year MOD 400 == 0 Then
-  Display year, " is  a leap year"
-Else If year MOD 4 == 0 Then
-  Display year, " is a leap year"
+  Display year, " is  a leap year."
+Else If year MOD 4 == 0 AND year MOD 100 != 0 Then
+  Display year, " is a leap year."
 Else
-  Display year, " is not a leap year"
+  Display year, " is not a leap year."
 End
-
-  
 
