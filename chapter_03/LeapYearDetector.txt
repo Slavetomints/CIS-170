@@ -1,0 +1,23 @@
+// Author: Daisy Hardwick
+// Class: CIS-170
+// Program: Leap Year Detector Pseudocode
+
+// Declare Variables
+Declare Integer year
+Declare Boolean isLeapYear = False
+
+// Prompt user for year
+Display "Please select a year."
+Input year
+
+// Test to see if year is a leap year and display results
+If year MOD 100 == 0 AND year MOD 400 == 0 Then
+  Display year, " is  a leap year"
+Else If year MOD 4 == 0 Then
+  Display year, " is a leap year"
+Else
+  Display year, " is not a leap year"
+End
+
+  
+
