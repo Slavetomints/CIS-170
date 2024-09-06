@@ -18,4 +18,3 @@ Else If year MOD 4 == 0 AND year MOD 100 != 0 Then
 Else
   Display year, " is not a leap year."
 End
-
