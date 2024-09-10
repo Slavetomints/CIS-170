@@ -1,0 +1,20 @@
+// Author: Daisy Hardwick
+// Class: CIS-170
+// Program: Factorial Calculator Pseudocode
+
+// Declare variables
+Declare Integer total = 1
+Declare Integer currentValue
+Declare Integer maxValue
+
+// Collect value from user
+Display "Please select a number to get the factorial of."
+Input maxValue
+
+// Calculate factorial
+For currentValue = 2 to maxValue
+  Set total = currentValue * total
+End For
+
+// Display results
+Display maxValue, "! is equal to ", total
