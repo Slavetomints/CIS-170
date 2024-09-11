@@ -8,7 +8,7 @@ Declare Integer currentValue
 Declare Integer maxValue
 
 // Collect value from user
-Display "Please select a number to get the factorial of."
+Display "Please select a number to get the factorial of: "
 Input maxValue
 
 // Calculate factorial
