@@ -1,6 +1,6 @@
 # Author: Daisy Hardwick
 # Class: CIS-170
-# Program: Factorial Calculator
+# Program: Factorial Calculator Python Program
 
 # Declare variables and gather input
 total = 1
