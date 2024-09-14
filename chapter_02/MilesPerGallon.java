@@ -28,5 +28,7 @@ public class MilesPerGallon
 
     // Display results
     System.out.println("You drove " + gasMileage + " miles per gallon of gas");
+    
+    keyboard.close();
   }
 }
