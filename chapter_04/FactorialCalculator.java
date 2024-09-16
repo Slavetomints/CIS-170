@@ -9,7 +9,7 @@ public class FactorialCalculator
   public static void main(String[] args) 
   {
     // Declare variables  
-    Integer total = 1;
+    double total = 1;
     Integer currentValue = 1;
     Integer maxValue;
     Scanner keyboard = new Scanner(System.in);
