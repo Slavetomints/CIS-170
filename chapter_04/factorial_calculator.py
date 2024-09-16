@@ -4,7 +4,7 @@
 
 # Declare variables and gather input
 total = 1
-max_value = int(input("Please select a number to get a factorial of: "))
+max_value = int(input("Please enter a non-negative number to get a factorial of: "))
 current_value = 1
 
 # Calculate factorial

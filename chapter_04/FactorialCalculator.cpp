@@ -14,7 +14,7 @@ int main()
   int maxValue;
 
   // Collect value from user
-  cout << "Please select a number to get the factorial of" << endl;
+  cout << "Please enter a non-negative number to get a factorial of" << endl;
   cin >> maxValue;
 
   // Calculate factorial

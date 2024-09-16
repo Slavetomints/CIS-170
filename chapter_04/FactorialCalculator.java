@@ -15,7 +15,7 @@ public class FactorialCalculator
     Scanner keyboard = new Scanner(System.in);
 
     // Collect value
-    System.out.println("Please select a number to get the factorial of");
+    System.out.println("Please enter a non-negative number to get a factorial of");
     maxValue = keyboard.nextInt();
 
     // Calculate factorial
