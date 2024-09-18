@@ -1,0 +1,33 @@
+// Author: Daisy Hardwick
+// Class: CIS-170
+// Program: Kilometer Converter Pseudocode
+
+// Main module that calls the other modules
+Module main()
+  Call displayIntro
+  Call kilometerToMileConverter
+End Module
+
+// Module that displays the intro statement
+Module displayIntro()
+  Display "Welcome to the Kilometer to Miles Converter!"
+End Module
+
+// Module that converts kilometers to miles
+Module kilometerToMileConverter
+
+  // Declaring variables and constants
+  Declare Real kilometers
+  Declare Real miles
+  Constant Real KILOMETER_TO_MILE_CONVERSION_RATE = 0.6214
+
+  // Gathering input from user
+  Display "Please enter the amount in kilometer(s)"
+  Input kilometers
+
+  // Calculating miles
+  Set miles = kilometers * KILOMETER_TO_MILE_CONVERSION_RATE
+
+  // Displaying output
+  Display kilometers, " kilometer(s) is equal to ", miles, " mile(s)." 
+End Module
