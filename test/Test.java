@@ -24,5 +24,8 @@ public class Test
 
     // Display results
     System.out.println("With " + numberOfHits + " hits at " + atBats + " at bats, your batting average is " + battingAverage + ".");
+    
+    // Close keyboard
+    keyboard.close();
   }
 }
