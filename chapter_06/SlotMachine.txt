@@ -1,0 +1,65 @@
+// Author: Daisy Hardwick
+// Class: CIS-170
+// Program: Slot Machine Pseudocode
+
+Module main()
+  Declare Integer money 
+  Set money = enterAmountOfMoney()
+
+  Declare String firstWord 
+  Set firstWord = getChoice()
+
+  Declare String secondWord 
+  Set secondWord = getChoice()
+
+  Declare String thirdWord
+  Set thirdWord = getChoice()
+
+  Call checkWinnings(money, firstWord, secondWord, thirdWord)
+
+  Call playAgain
+End Module
+
+Function Integer enterAmountOfMoney()
+  Declare Real money
+  Declare Integer safeMoney
+  Display "Please enter the amount of money you wish to bet"
+  Input money
+  If money == '' || money < 0
+    Display "Please enter and amount greater the or equal to zero"
+    Call enterAmountOfMoney
+  Set safeMoney = toInteger(money)
+  Return safeMoney
+End Function
+
+Function String GetChoice()
+  Declare String word
+  Set word = random(Cherries, Oranges, Plums, Bells, Melons, Bars)
+  Return word
+End Function
+
+Function Integer checkWinnings(Integer money, String firstWord, String secondWord, String thirdWord)
+
+  If firstWord == secondWord && firstWord == thirdWord
+    Set money = money * 3
+      Display "You won $", money, "!"
+  Else if firstWord == secondWord || firstWord == thirdWord || secondWord == thirdWord
+    Set money = money * 2
+    Display "You won $", money, "!"
+  Else
+    Display "You loose!"
+  Call playAgain
+  Return 0
+End Function
+
+Module playAgain
+  Declare String answer
+  Display "Do you want to play again? Please enter 'Y' or 'y' to do so."
+  Input answer
+  If answer == 'Y' || answer == 'y'
+    Display "Have fun!"
+    Call main()
+  Else
+    Display "Bye Bye!"
+  End If
+End Module
