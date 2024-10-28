@@ -34,7 +34,7 @@ End Function
 
 Function String GetChoice()
   Declare String word
-  Set word = random(Cherries, Oranges, Plums, Bells, Melons, Bars)
+  Set word = random("Cherries", "Oranges", "Plums", "Bells", "Melons", "Bars")
   Return word
 End Function
 

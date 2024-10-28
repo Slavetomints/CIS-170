@@ -1,6 +1,6 @@
 // Author: Daisy Hardwick
 // Class: CIS-170
-// Program: Kilometer Converter Pseudocode
+// Program: Kilometer Converter C++ Program
 
 #include <iostream>
 using namespace std;
