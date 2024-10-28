@@ -1,0 +1,31 @@
+// Author: Daisy Hardwick
+// Class: CIS-170
+// Program: Siblings Pseudocode
+
+Module main
+  Display "Enter number of siblings:"
+  Constant Integer SIZE
+  Input SIZE
+  If isInteger(SIZE) Then
+    If SIZE == 0 Then
+      Display "Ah, you are an only child"
+    Else
+      Declare String siblingsArray[SIZE]
+
+      Declare Integer iterator
+
+      For iterator = 0 To SIZE - 1
+        Display "Enter sibling ", iterator + 1
+        Input siblingsArray[iterator]
+      End For
+
+      Display "Your siblings are:"
+
+      For Each sibling In siblingsArray
+        Display sibling
+      End For
+    End If
+  Else
+    Display "Invalid type detected. Exiting now!"
+  End If
+End Module
